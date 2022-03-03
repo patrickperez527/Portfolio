@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="style icon" type="image/png" href="src/img/programmer.png">
+    <title>John Patrick Perez</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/scroll.css">
+    <link href="src/css/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/aos.css">
+    <link rel="stylesheet" href="src/css/styles.css"/> 
+    <link id="theme-style" rel="stylesheet" href="">
+    <!-- END OF CSS -->
+  </head>
+  <body>
+    <!-- ARROW UP BUTTON -->
+    <button onclick="topFunction()" id="arrow-up-button"><i class="fas fa-angle-double-up"></i></button>
+    <!-- END OF ARROW UP BUTTON -->
+
+    <!-- NAVIGATION -->
+    <nav id="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-me">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- END OF NAVIGATION -->
+
+    <!-- HERO SECTION -->
+    <section id="hero-section">
+      <div id="hero-container">
+        <div id="hero-content">
+          <h1>John Patrick Perez</h1>
+          <p id="hero-text"></p>
+          <div id="hero-buttons">
+            <a href="#about-me" class="button">About Me</a>
+            <div id="theme-options-wrapper">
+              <div data-mode="dark" id="dark-mode" class="theme-dot"></div>
+              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+              <div data-mode="green" id="green-mode" class="theme-dot"></div>
+              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+              <div data-mode="light" id="light-mode" class="theme-dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF HERO SECTION -->
+
+    <!-- ABOUT ME -->
+    <section id="about-me" data-aos="zoom-in">
+      <div>
+        <h2>About me</h2>
+        <p id="about-description">Hello. My name is <b>John Patrick Perez</b>. I am seeking a challenging career with a progressive organization that provides an opportunity to capitalize my technical skills & abilities in the field of Information Technology. I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference.</p>
+        <a class="button" href="src/JohnPatrickPerez-CV.pdf" target="_blank">Download CV <i class="fas fa-download"></i></a>
+      </div>
+      <div id="profile">
+        <img src="src/img/Capture.JPG" alt="profile-picture" id="profile-picture">
+      </div>
+    </section>
+
+    <section id="hobbies-section">
+      <h2>Hobbies</h2>
+      <div class="card-container">
+        <div class="card" data-aos="zoom-in">
+          <img class="card-image" src="src/img/programming.png" alt="web-development"/>
+          <h3>Web Development</h3>
+        </div>
+        <div class="card" data-aos="zoom-in">
+          <img class="card-image" src="src/img/dota2.png" alt="dota2"/>
+          <h3>Dota 2</h3>
+        </div>
+        <div class="card" data-aos="zoom-in">
+          <img class="card-image" src="src/img/basketball.png" alt="basketball"/>
+          <h3>Basketball</h3>
+        </div>
+        <div class="card" data-aos="zoom-in">
+          <img class="card-image" src="src/img/weightlifting.png" alt="weightlifting"/>
+          <h3>Weightlifting</h3>
+        </div>
+        <div class="card" data-aos="zoom-in">
+          <img class="card-image" src="src/img/nba.png" alt="watching-sports"/>
+          <h3>Watching Sports</h3>
+        </div>  
+      </div>
+    </section>
+    <!-- END OF ABOUT ME -->
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div id="skills-container">
+        <div class="card-container">
+          <div class="card" data-aos="zoom-in">
+            <img class="card-image" src="src/img/htmlcss.png" alt="html-css"/>
+            <h3>HTML/CSS</h3>
+          </div>
+          <div class="card" data-aos="zoom-in">
+            <img class="card-image" src="src/img/javascript.png" alt="javascript"/>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="card" data-aos="zoom-in">
+            <img class="card-image" src="src/img/react-native.png" alt="react-native"/>
+            <h3>React Native</h3>
+          </div>
+          <div class="card" data-aos="zoom-in">
+            <img class="card-image" src="src/img/cisco.png" alt="cisco"/>
+            <h3>Computer Networking</h3>
+          </div>
+          <div class="card" data-aos="zoom-in">
+            <img class="card-image" src="src/img/php-mysql.png" alt="php-mysql"/>
+            <h3>PHP & MySQL</h3>    
+          </div>
+          <div class="card" data-aos="zoom-in">
+            <img class="card-image" src="src/img/bootstrap.png" alt="bootstrap"/>
+            <h3>Bootstrap</h3>
+          </div>
+          <div class="card" data-aos="zoom-in">
+            <img class="card-image" src="src/img/git.png" alt="git"/>
+            <h3>Git</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF SKILLS -->
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div id="project-container">
+        <h2>Projects</h2>
+        <div id="card-project-container">
+          <div class="card-project" data-aos="zoom-in">
+            <a href="https://project-js-counter.netlify.app" target="_blank"><img class="project-gif" src="src/img/counter.gif" alt="counter"/>     
+            <h3>Counter</h3></a>
+            <p>A simple counter app for learning class syntax in Vanilla JavaScript. Implemented in HTML, CSS and Vanilla Javascript.</p>
+          </div>
+          <div class="card-project" data-aos="zoom-in">
+            <a href="https://project-random-color-generator.netlify.app" target="_blank"><img class="project-gif" src="src/img/random-color-generator.gif" alt="random-color-generator"/>
+                <h3>Random Color Generator</h3></a>
+                <p>A website that generates a random color everytime the user clicks it. Implemented in HTML, CSS and Vanilla Javascript.</p> 
+          </div>
+          <div class="card-project" data-aos="zoom-in">
+            <a href="https://project-random-password-generator.netlify.app/" target="_blank"><img class="project-gif" src="src/img/random-password-generator.gif" alt="random-password-generator" alt="random-password-generator"/>
+                <h3>Password Generator</h3></a> 
+                <p>A Vanilla JavaScript app that can be used to generate passwords with special characters, numbers, lowercase letters, and/or uppercase letters.</p>       
+          </div>
+          <div class="card-project" data-aos="zoom-in">
+            <a href="https://project-toggle-dark-mode.netlify.app/" target="_blank"><img class="project-gif" src="src/img/toggle-dark-mode.gif" alt="toggle-dark-mode"/>
+                <h3>Toggle Dark Mode</h3></a>
+                <p>Dark mode / Light mode theme switcher, implemented in Vanilla JavaScript.</p>
+          </div>
+          <div class="card-project" data-aos="zoom-in">
+            <a href="https://project-weight-converter.netlify.app/" target="_blank"><img class="project-gif" src="src/img/weight-converter.gif" alt="toggle-dark-mode"/>
+                <h3>Weight Converter</h3></a>
+                <p>Weight converter app that converts pounds, grams, kilograms and ounces to each other using Bootstrap 5 and Vanilla JavaScript.</p>
+          </div>
+          <div class="card-project" data-aos="zoom-in">
+            <a href="https://project-temperature-converter.netlify.app/" target="_blank"><img class="project-gif" src="src/img/temperature-converter.gif" alt="toggle-dark-mode"/>
+                <h3>Temperature Converter</h3></a>
+                <p>A simple website that converts temperature units from Celcius to Fahrenheit to Kelvin or vice versa. Implemented in Vanilla JavaScript and Bootstrap 5.</p>
+          </div>
+          <div class="card-project" data-aos="zoom-in">
+            <a href="https://patrickperez527.github.io/bayan-academy/" target="_blank"><img class="project-gif" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="toggle-dark-mode"/>
+                <h3>Bayan Academy Bootcamp</h3></a>
+                <p>I created this website to store all my activities during the coding bootcamp at Bayan Academy.</p>
+          </div>
+          <div class="card-project" data-aos="zoom-in">
+            <a href="https://project-github-profiles.netlify.app/" target="_blank"><img class="project-gif" src="src/img/github-profiles.gif" alt="toggle-dark-mode"/>
+                <h3>Github Profiles</h3></a>
+                <p>A website that uses github api to search for github users and some of their profile data and display it in card.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF PROJECTS -->
+
+    <!-- CONTACT -->
+    <section id="contact" data-aos="zoom-in">
+      <div id="contact-div">
+        <h2>Contact Me</h2>
+        <p id="error"></p>
+        <form id="form" action="https://formsubmit.co/patrickperez527@gmail.com" method="POST" autocomplete="off">
+          <div>
+            <i class="far fa-user icon"></i>
+            <input type="text" name="name" placeholder="Name" id="name" autocomplete="false">
+          </div>  
+          <div>
+            <i class="far fa-envelope icon"></i>
+            <input type="text" name="email" placeholder="Email Address" id="email" autocomplete="false">
+          </div>
+          <div>
+            <i class="far fa-building icon"></i>
+            <input type="text" name="location" placeholder="Company" id="company" autocomplete="false">
+          </div>
+          <div>
+            <i class="far fa-comment-dots icon"></i>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" autocomplete="false"></textarea>
+          </div>
+          <div>
+            <button class="button submit" type="submit" value="https://johnpatrickperez.netlify.app/send.html">Submit</button>
+          </div>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="send.html">
+          <input type="hidden" name="_template" value="table">
+        </form>
+      </div>
+    </section>
+    <!-- END OF CONTACT -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Social Media</p>
+      <div>
+        <a class="footer" href="https://www.facebook.com/patrickperez17" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a class="footer" href="https://github.com/patrickperez527" target="_blank"><i class="fab fa-github"></i></a>  
+        <a class="footer" href="http://messenger.com/patrickperez17" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+        <a class="footer" href="https://www.linkedin.com/in/johnpatrickperez527/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a class="footer" href="https://www.youtube.com/channel/UCWp-dUQnzKfykkYAwRsQgqQ" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- SCRIPTS -->
+    <script src="src/js/icons.js"></script>
+    <script src="src/js/colors.js"></script>
+    <script src="src/js/script.js"></script>
+    <script src="src/js/aos.js"></script>
+    <!-- END OF SCRIPTS -->
+
+  </body>
+</html>

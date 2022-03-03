@@ -1,0 +1,22 @@
+*:root{
+    --mainBg: #ccc;
+    --textColor: #000;
+    --formColor: #000;
+    
+    --divBg: #d4d4d4;
+    --boxShadow: 10px 10px 20px #7c7c7c;
+    
+    --mainBorder: 1px solid #a0a0a0;
+    --themeDotBorder: #fff;
+}
+
+::placeholder{
+    color: #525252;
+}
+
+.theme-dot:hover{
+	border-width: 5px;
+	box-shadow: 3px 10px 74px 12px rgb(0, 0, 0);
+    -webkit-box-shadow: 12px 10px 74px 12px rgb(0, 0, 0);
+    -moz-box-shadow: 3px 10px 74px 12px rgb(0, 0, 0);
+}

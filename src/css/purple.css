@@ -1,0 +1,15 @@
+*:root{
+    --mainBg: #46344E;
+    --textColor: #b4b4b4;
+    --formColor: #b4b4b4;
+
+    --divBg: #4e3a57;
+    --boxShadow: 10px 10px 20px #231b27;
+    
+    --mainBorder: 2px solid #36283d;
+    --themeDotBorder: #fff;
+}
+
+::placeholder{
+    color: #aaaaaa;
+}
