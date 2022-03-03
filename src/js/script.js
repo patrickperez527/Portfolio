@@ -35,14 +35,14 @@ function writeText(){
     setTimeout(writeText, speed);
 }
 
-const myForm = document.getElementById('form');
+const form = document.getElementById('form');
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const companyInput = document.getElementById('company');
 const messageInput = document.getElementById('message');
 const formErrorMessage = document.getElementById('error');
 
-myForm.addEventListener('submit', e => {
+form.addEventListener('submit', e => {
     e.preventDefault();
     if (nameInput.value === '' || emailInput.value === '' || companyInput.value === '' || messageInput.value === '') {
         formErrorMessage.innerText = 'You must fill in all of the fields.';
@@ -68,7 +68,7 @@ myForm.addEventListener('submit', e => {
         formErrorMessage.style.width = '80%';
         hideMessage();
     } else {
-        myForm.submit();
+        form.submit();
     }   
 })
 
@@ -80,7 +80,6 @@ function hideMessage(){
     }, 3000)
 }
 
-// form button interaction
 const formButton = document.querySelector('.submit');
 formButton.addEventListener('mouseover', () => {
     if (nameInput.value === '' || emailInput.value === '' || companyInput.value === '' || messageInput.value === '') {
@@ -90,7 +89,6 @@ formButton.addEventListener('mouseover', () => {
     }
 })
 
-// form input interaction
 nameInput.addEventListener('mouseover', () => {
     nameInput.placeholder = 'Enter your name';
 })

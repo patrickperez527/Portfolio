@@ -1,23 +1,18 @@
-/* scrollbar design  */
+/************ SCROLLBAR DESIGN ************/
 
-/* width */
+/************ WIDTH ************/
 ::-webkit-scrollbar {
-    width: 10px;
-  }
+    width: 15px;
+}
   
-/* Track */
+/************ TRACK ************/
 ::-webkit-scrollbar-track {
   box-shadow: var(--boxShadow); 
   border-radius: 10px;
 }
    
-/* Handle */
+/************ HANDLE ************/
 ::-webkit-scrollbar-thumb {
   background: var(--textColor); 
   border-radius: 10px;
-}
-  
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--textColor); 
 }

@@ -1,4 +1,4 @@
-let theme = localStorage.getItem('theme');
+const theme = localStorage.getItem('theme');
 
 if (theme == null) {
 	setTheme('dark');
@@ -6,11 +6,11 @@ if (theme == null) {
 	setTheme(theme);
 }
 
-let themeDots = document.querySelectorAll('.theme-dot');
+const themeDots = document.querySelectorAll('.theme-dot');
 
 for (let i = 0; themeDots.length > i; i++){
 	themeDots[i].addEventListener('click', function(){
-		let mode = this.dataset.mode;
+		const mode = this.dataset.mode;
 		setTheme(mode);
 	})
 }
