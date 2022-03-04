@@ -5,8 +5,9 @@
     
     --divBg: #d4d4d4;
     --boxShadow: 10px 10px 20px #7c7c7c;
+    --boxHoverShadow: 5px 5px 30px #212529;
     
-    --mainBorder: 1px solid #a0a0a0;
+    --mainBorder: 2px solid #a0a0a0;
     --themeDotBorder: #fff;
 }
 
