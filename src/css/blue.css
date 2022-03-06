@@ -1,0 +1,16 @@
+*:root{
+    --mainBg: #15202b;
+    --textColor: #ccc;
+    --formColor: #ccc;
+
+    --divBg: #1a2836;
+    --boxShadow: 10px 10px 40px #080c0f;
+    --boxHoverShadow: 5px 5px 20px #ccc;
+    
+    --mainBorder: 2px solid #111921;
+    --themeDotBorder: #fff;
+}
+
+::placeholder{
+    color: #949494;
+}

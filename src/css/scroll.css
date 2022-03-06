@@ -1,0 +1,18 @@
+/************ SCROLLBAR DESIGN ************/
+
+/************ WIDTH ************/
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+/************ TRACK ************/
+::-webkit-scrollbar-track {
+  box-shadow: var(--boxShadow); 
+  border-radius: 10px;
+}
+   
+/************ HANDLE ************/
+::-webkit-scrollbar-thumb {
+  background: var(--textColor); 
+  border-radius: 10px;
+}
