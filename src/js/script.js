@@ -1,3 +1,4 @@
+//========== ARROW UP BUTTON ==========//
 const arrowUpButton = document.getElementById('arrow-up-button');
 
 window.onscroll = function() {
@@ -17,11 +18,11 @@ arrowUpButton.addEventListener('click', () => {
     document.documentElement.scrollTop = 0;
 });
 
+//========== HERO TEXT ==========//
 const heroText = document.getElementById('hero-text');
 const heroTextContent = 'Aspiring Full Stack Developer';
 let count = 1;
 let speed = 100;
-
 
 writeText();
 
@@ -35,6 +36,7 @@ function writeText(){
     setTimeout(writeText, speed);
 }
 
+//========== CONTACT FORM VALIDATION ==========//
 const form = document.getElementById('form');
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
@@ -80,6 +82,7 @@ function hideMessage(){
     }, 3000)
 }
 
+//========== FORM BUTTON CURSOR ==========//
 const formButton = document.querySelector('.submit');
 formButton.addEventListener('mouseover', () => {
     if (nameInput.value === '' || emailInput.value === '' || companyInput.value === '' || messageInput.value === '') {
@@ -89,6 +92,7 @@ formButton.addEventListener('mouseover', () => {
     }
 })
 
+//========== FORM INPUT PLACEHOLDER CHANGE ==========//
 nameInput.addEventListener('mouseover', () => {
     nameInput.placeholder = 'Enter your name';
 })

@@ -6,24 +6,28 @@
     <!-- ICON -->
     <link rel="style icon" type="image/png" href="src/img/programmer.png">
     <!-- END OF ICON -->
-    <title>John Patrick Perez</title>
     <!-- CSS -->
+    <!-- SCROLLBAR STYLE -->
     <link rel="stylesheet" href="src/css/scroll.css">
+    <!-- FONTS -->
     <link href="src/css/fonts.css" rel="stylesheet">
+    <!-- ANIMATED ON SCOLL -->
     <link rel="stylesheet" href="src/css/aos.css">
+    <!-- MAIN STYLE -->
     <link rel="stylesheet" href="src/css/styles.css"/> 
+    <!-- THEME CHANGER -->
     <link id="theme-style" rel="stylesheet" href="">
     <!-- END OF CSS -->
+    <title>John Patrick Perez</title>
   </head>
   <body>
     <!-- ARROW UP BUTTON -->
-    <button onclick="topFunction()" id="arrow-up-button"><i class="fas fa-angle-double-up"></i></button>
+    <button id="arrow-up-button"><i class="fas fa-angle-double-up"></i></button>
     <!-- END OF ARROW UP BUTTON -->
 
     <!-- NAVIGATION -->
     <nav id="navbar">
       <ul>
-        <li><a href="#">Home</a></li>
         <li><a href="#about-me">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -57,7 +61,7 @@
     <section id="about-me" data-aos="zoom-in">
       <div>
         <h2>About me</h2>
-        <p id="about-description">Hello. My name is <b>John Patrick Perez</b>. I am seeking a challenging career with a progressive organization that provides an opportunity to capitalize my technical skills & abilities in the field of Information Technology. I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference.</p>
+        <p id="about-description">Hello. My name is <b>John Patrick Perez</b>. I am seeking a challenging career with a progressive organization that provides an opportunity to capitalize my technical skills & abilities in the field of Information Technology.</p>
         <a class="button" href="src/JohnPatrickPerez-CV.pdf" target="_blank">Download CV <i class="fas fa-download"></i></a>
       </div>
       <div id="profile">
@@ -140,7 +144,7 @@
             <a href="https://project-js-counter.netlify.app" target="_blank">
               <h3>Counter <i class="fas fa-link"></i></h3>
             </a>
-            <p>A simple counter app for learning class syntax in Vanilla JavaScript. Implemented in HTML, CSS and Vanilla Javascript.</p>
+            <p>A simple counter app that has a feature of storing the counter value inside the local storage. Implemented in HTML, CSS and Vanilla Javascript.</p>
           </div>
           <div class="card-project" data-aos="zoom-in">
             <img class="project-gif" src="src/img/random-color-generator.gif" alt="random-color-generator"/>
@@ -201,6 +205,13 @@
       <div id="contact-div">
         <h2>Contact Me</h2>
         <p id="error"></p>
+        <!-- SETUP 
+          1. Connect your FORM by changing the EMAIL below.
+          2. Add NAME attribute to all your form elements. (Already did)
+          3. Submit the FORM once. This first-time-use will trigger an EMAIL REQUESTING CONFIRMATION.
+        
+        SEE DOCS HERE: https://formsubmit.co/
+        -->
         <form id="form" action="https://formsubmit.co/patrickperez527@gmail.com" method="POST" autocomplete="off">
           <div>
             <i class="far fa-user icon"></i>
@@ -221,8 +232,11 @@
           <div>
             <button class="button submit" type="submit" value="submit">Submit</button>
           </div>
+          <!-- DISABLE CAPTCHA -->
           <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://johnpatrickperez.netlify.app/send.html">
+          <!-- THANK YOU PAGE -->
+          <input type="hidden" name="_next" value="https://patrickperez527.github.io/Portfolio/send.html">
+          <!-- EMAIL TABLE TEMPLATE -->
           <input type="hidden" name="_template" value="table">
         </form>
       </div>
@@ -231,11 +245,11 @@
 
     <!-- FOOTER -->
     <footer>
-      <p>Social Media</p>
+      <p>Find me at</p>
       <div>
         <a class="footer" href="https://www.facebook.com/patrickperez17" target="_blank"><i class="fab fa-facebook"></i></a>
         <a class="footer" href="https://github.com/patrickperez527" target="_blank"><i class="fab fa-github"></i></a>  
-        <a class="footer" href="http://messenger.com/patrickperez17" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+        <a class="footer" href="https://johnpatrickperez.netlify.app/" target="_blank"><i class="fab fa-solid fa-link"></i></a>
         <a class="footer" href="https://www.linkedin.com/in/johnpatrickperez527/" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a class="footer" href="https://www.youtube.com/channel/UCWp-dUQnzKfykkYAwRsQgqQ" target="_blank"><i class="fab fa-youtube"></i></a>
       </div>
@@ -243,7 +257,7 @@
     <!-- END OF FOOTER -->
 
     <!-- SCRIPTS -->
-    <script src="src/js/icons.js"></script>
+    <script src="https://kit.fontawesome.com/84a94563a7.js" crossorigin="anonymous"></script>
     <script src="src/js/colors.js"></script>
     <script src="src/js/script.js"></script>
     <script src="src/js/aos.js"></script>

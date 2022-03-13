@@ -75,6 +75,35 @@ p {
     background: var(--textColor);
     color: var(--mainBg);
 }
+
+/************ SKILLS AND HOBBIES CARDS ************/
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: var(--divBg);
+    box-shadow: var(--boxShadow);
+}
+
+.card:hover {
+    box-shadow: var(--boxHoverShadow);
+}
+
+.card-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
 /************ END OF GLOBAL STYLES ************/
 
 /************ ARROW UP BUTTON ************/
@@ -235,34 +264,6 @@ p {
     text-align: center;
     padding: 20px 40px 0 40px;
     margin-top: 10px;
-}
-
-.card-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-top: 30px;
-}
-
-.card {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 100px;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 10px;
-    background: var(--divBg);
-    box-shadow: var(--boxShadow);
-}
-
-.card:hover {
-    box-shadow: var(--boxHoverShadow);
-}
-
-.card-image {
-    margin-top: 25px;
-    width: 250px;
-    border-radius: 125px;
 }
 /************ END OF ABOUT SECTION ************/
 
