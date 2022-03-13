@@ -92,7 +92,11 @@ formButton.addEventListener('mouseover', () => {
     }
 })
 
+<<<<<<< HEAD
 //========== FORM INPUT PLACEHOLDER CHANGE ==========//
+=======
+//========== FORM INPUT PLACEHOLDER ==========//
+>>>>>>> 21287817f2673958f139c24142a27237f849e08a
 nameInput.addEventListener('mouseover', () => {
     nameInput.placeholder = 'Enter your name';
 })

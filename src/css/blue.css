@@ -8,6 +8,10 @@
     --boxHoverShadow: 5px 5px 20px #ccc;
     
     --mainBorder: 2px solid #111921;
+<<<<<<< HEAD
+=======
+    --themeDotBorder: #fff;
+>>>>>>> 21287817f2673958f139c24142a27237f849e08a
 }
 
 ::placeholder{
